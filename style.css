@@ -74,7 +74,35 @@ img {
 
 
 /* responsive */
-@@media screen and (max-width: 480px) {
-  
+@media screen and ( max-width: 480px) {
+
+  body {
+    max-width: 480px;
+  }
+
+  .row {
+    width: 80%;
+  }
+
+  .row h1 {
+    color: red;
+    padding-bottom: 12%;
+    font-size: 40px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    margin: 1% 1%;
+    float: none;
+    font-size: 30px;
+  }
+
+  #lezioni .row>.left h3,
+  #lezioni .row>.right h3 {
+    color: red;
+  }
+
+
 }
 /* /responsive */
