@@ -217,8 +217,48 @@ img {
    .second hr {
     border: none;
   }
-
   /* row3 */
+}
+
+@media screen and ( max-width: 320px) {
+
+body {
+  max-width: 320px;
+  font-size: 14px;
+}
+
+.row {
+  width: 100%;
+}
+
+.row h1 {
+  color: red;
+  padding-bottom: 12%;
+  font-size: 30px;
+}
+
+#lezioni img {
+  width: 50%;
+  height: 50%;
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 100%;
+  margin: 1% 1%;
+  float: none;
+  padding-bottom: 10%;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 50%;
+  margin: auto;
+  padding: 0 2%;
+  display: block;
+  vertical-align: text-top;
+}
 
 }
 /* /responsive */
